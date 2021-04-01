@@ -1,5 +1,5 @@
 # rocketmq-boot
-rocketmq + spring boot消息队列示例
+kafka，rocketmq + spring boot消息队列示例
 
 ## rocketmq安装
 [http://rocketmq.apache.org/docs/quick-start/](http://rocketmq.apache.org/docs/quick-start/)
