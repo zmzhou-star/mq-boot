@@ -20,6 +20,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserVo implements Serializable {
+	/** serialVersionUID */
+	private static final long serialVersionUID = 6885915526714692655L;
 	private long id;
 	private String name;
 	private int age;
