@@ -1,4 +1,4 @@
-package com.zmzhoustar.rocketmqconsumer;
+package com.github.zmzhoustar.rocketmqconsumer;
 
 /**
  * 常量

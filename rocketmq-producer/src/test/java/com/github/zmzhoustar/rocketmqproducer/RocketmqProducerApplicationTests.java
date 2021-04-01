@@ -1,4 +1,4 @@
-package com.zmzhoustar.rocketmqproducer;
+package com.github.zmzhoustar.rocketmqproducer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

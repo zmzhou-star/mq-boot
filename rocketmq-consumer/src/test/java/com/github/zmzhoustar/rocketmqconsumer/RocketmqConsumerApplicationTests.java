@@ -1,4 +1,4 @@
-package com.zmzhoustar.rocketmqconsumer;
+package com.github.zmzhoustar.rocketmqconsumer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

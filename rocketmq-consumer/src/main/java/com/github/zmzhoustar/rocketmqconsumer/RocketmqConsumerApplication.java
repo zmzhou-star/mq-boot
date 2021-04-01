@@ -1,4 +1,4 @@
-package com.zmzhoustar.rocketmqconsumer;
+package com.github.zmzhoustar.rocketmqconsumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

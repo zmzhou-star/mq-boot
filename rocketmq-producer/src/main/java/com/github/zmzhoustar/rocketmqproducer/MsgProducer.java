@@ -1,4 +1,4 @@
-package com.zmzhoustar.rocketmqproducer;
+package com.github.zmzhoustar.rocketmqproducer;
 
 import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;

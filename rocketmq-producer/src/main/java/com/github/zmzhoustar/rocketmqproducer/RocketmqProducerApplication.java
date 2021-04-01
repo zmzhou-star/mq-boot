@@ -1,4 +1,4 @@
-package com.zmzhoustar.rocketmqproducer;
+package com.github.zmzhoustar.rocketmqproducer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

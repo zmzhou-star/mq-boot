@@ -1,4 +1,4 @@
-package com.zmzhoustar.rocketmqproducer;
+package com.github.zmzhoustar.rocketmqproducer;
 
 import java.io.Serializable;
 

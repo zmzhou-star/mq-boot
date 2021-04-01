@@ -1,4 +1,4 @@
-package com.zmzhoustar.rocketmqconsumer;
+package com.github.zmzhoustar.rocketmqconsumer;
 
 import java.nio.charset.StandardCharsets;
 
