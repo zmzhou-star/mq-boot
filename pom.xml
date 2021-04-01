@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.zmzhou-star</groupId>
-	<artifactId>rocketmq-boot</artifactId>
+	<artifactId>mq-boot</artifactId>
 	<version>1.0</version>
-	<name>rocketmq-boot</name>
+	<name>mq-boot</name>
 	<packaging>pom</packaging>
-	<description>Rocketmq Spring boot project for Spring Boot</description>
+	<description>MQ Spring boot project for Spring Boot</description>
 
 	<properties>
 		<demo.version>1.0</demo.version>
