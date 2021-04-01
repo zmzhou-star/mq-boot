@@ -1,4 +1,4 @@
-# rocketmq-boot
+# mq-boot
 kafka，rocketmq + spring boot消息队列示例
 
 ## rocketmq安装
