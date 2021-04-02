@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.zmzhou-star</groupId>
-	<artifactId>rocketmq-boot</artifactId>
+	<groupId>com.github.zmzhou-star</groupId>
+	<artifactId>mq-boot</artifactId>
 	<version>1.0</version>
-	<name>rocketmq-boot</name>
+	<name>mq-boot</name>
 	<packaging>pom</packaging>
-	<description>Rocketmq Spring boot project for Spring Boot</description>
+	<description>MQ Spring boot project for Spring Boot</description>
 
 	<properties>
 		<demo.version>1.0</demo.version>
@@ -61,6 +61,8 @@
 	<modules>
 		<module>rocketmq-producer</module>
 		<module>rocketmq-consumer</module>
+		<module>kafka-producer</module>
+		<module>kafka-consumer</module>
 	</modules>
 
 	<dependencies>
