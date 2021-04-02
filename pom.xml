@@ -63,7 +63,8 @@
 		<module>rocketmq-consumer</module>
 		<module>kafka-producer</module>
 		<module>kafka-consumer</module>
-	</modules>
+        <module>observer-pattern</module>
+    </modules>
 
 	<dependencies>
 	</dependencies>

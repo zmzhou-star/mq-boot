@@ -6,6 +6,8 @@ kafka，rocketmq + spring boot消息队列示例
 
 **需要注意的是：不支持高版本jdk，最好1.8u202，需要修改启动jvm参数，默认8g + 4g**
 
+[**商用免费版jdk最高版本是1.8u202**](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
+
 ### rocketmq可视化控制台安装
 [https://github.com/apache/rocketmq-externals](https://github.com/apache/rocketmq-externals)
 1. 下载解压进入rocketmq-console文件夹，修改配置文件
