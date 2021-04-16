@@ -7,6 +7,8 @@ import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.ApplicationEventPublisherAware;
 import org.springframework.stereotype.Service;
 
+import com.github.zmzhoustar.common.UserVo;
+
 /**
  * 发送事件
  *

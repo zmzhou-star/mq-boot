@@ -11,6 +11,8 @@ import org.apache.rocketmq.spring.core.RocketMQListener;
 import org.apache.rocketmq.spring.core.RocketMQPushConsumerLifecycleListener;
 import org.springframework.stereotype.Service;
 
+import com.github.zmzhoustar.common.Constants;
+
 import lombok.extern.slf4j.Slf4j;
 
 /**

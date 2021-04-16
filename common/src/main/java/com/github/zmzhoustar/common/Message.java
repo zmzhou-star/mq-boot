@@ -1,4 +1,4 @@
-package com.github.zmzhoustar.kafkaproducer;
+package com.github.zmzhoustar.common;
 
 import java.io.Serializable;
 import java.util.Date;

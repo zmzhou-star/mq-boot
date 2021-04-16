@@ -6,6 +6,8 @@ import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
+import com.github.zmzhoustar.common.Constants;
+
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -20,7 +22,7 @@ import lombok.extern.slf4j.Slf4j;
 @Component
 public class KafkaConsumer {
 
-	@KafkaListener(topics = {"springboot-kafka"})
+	@KafkaListener(topics = {Constants.KAFKA_TOPIC})
 	public void listen(ConsumerRecord<?, ?> record) {
 		Optional<?> kafkaMessage = Optional.ofNullable(record.value());
 		if (kafkaMessage.isPresent()) {

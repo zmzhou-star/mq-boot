@@ -5,6 +5,8 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;
 
 import com.alibaba.fastjson.JSON;
+import com.github.zmzhoustar.common.Constants;
+import com.github.zmzhoustar.common.Message;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -31,6 +33,6 @@ public class KafkaProducer {
     public void send(Message message) {
         String msg = JSON.toJSONString(message);
         log.info("+++ Kafka Producer message = {}", msg);
-        kafkaTemplate.send("springboot-kafka", msg);
+        kafkaTemplate.send(Constants.KAFKA_TOPIC, msg);
     }
 }

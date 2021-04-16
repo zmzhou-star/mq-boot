@@ -1,4 +1,4 @@
-package com.github.zmzhoustar.rocketmqconsumer;
+package com.github.zmzhoustar.common;
 
 /**
  * 常量
@@ -9,6 +9,7 @@ package com.github.zmzhoustar.rocketmqconsumer;
  */
 public final class Constants {
 	public static final String TOPIC = "springboot-topic";
+	public static final String KAFKA_TOPIC = "springboot-kafka";
 	public static final String CONSUMER_GROUP = "USER_CONSUMER_GROUP";
 	public static final String CONSUMER_GROUP2 = "USER_CONSUMER_GROUP2";
 }
