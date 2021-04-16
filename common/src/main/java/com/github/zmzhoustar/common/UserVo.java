@@ -1,4 +1,4 @@
-package com.github.zmzhoustar;
+package com.github.zmzhoustar.common;
 
 import java.io.Serializable;
 
@@ -13,7 +13,6 @@ import lombok.NoArgsConstructor;
  * @author zmzhou
  * @version 1.0
  * date 2021/3/29 10:53
- * @title UserVo
  */
 @Data
 @Builder
@@ -26,4 +25,5 @@ public class UserVo implements Serializable {
 	private String name;
 	private int age;
 	private String address;
+
 }
