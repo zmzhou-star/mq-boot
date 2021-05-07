@@ -29,6 +29,7 @@
             <artifactId>pulsar-client</artifactId>
             <version>2.7.1</version>
         </dependency>
+        <!--对自定义配置项生成自己的配置元数据文件-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
